@@ -11,6 +11,7 @@
  */
 html {
     height: 100%;
+    background-color: #303030;
 }
 body {
     display: flex;
@@ -18,16 +19,17 @@ body {
     justify-content: center;
     height: 100%;
     margin: auto;
+    word-wrap: break-word;
 }
 #app {
-    color: #2c3e50;
-    max-width: 600px;
+    color: white;
+    max-width: 90%;
     font-family: Source Sans Pro, Helvetica, sans-serif;
     text-align: center;
 }
 #app p {
     text-align: justify;
 }
-.hello {
-    color: var(--primary-color);
+.headerInfo {
+    margin: auto;
 }

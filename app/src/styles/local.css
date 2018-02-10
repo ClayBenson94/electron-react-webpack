@@ -11,7 +11,3 @@
     composes: tone;                 /* Composition example */
     text-decoration: none;
 }
-
-:local .logo {
-    height: 100px;
-}

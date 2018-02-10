@@ -9,9 +9,8 @@ require('electron-reload')(__dirname)
 let mainWindow
 
 app.on('ready', () => {
-
-    let mainWindow = new BrowserWindow({width: 800, height: 600})
+    let mainWindow = new BrowserWindow({ width: 1400, height: 900, icon: './app/src/assets/rust.jpg' })
 
     mainWindow.loadURL(`file://${__dirname}/app/index.html`)
-
+    mainWindow.maximize();
 })
